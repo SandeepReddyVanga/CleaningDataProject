@@ -5,7 +5,7 @@ Script for combining train and test data sets and extracting certain features fr
 
 This repository contains run_analysis.R script file. The raw data directory path ("dir_path") can be set at the beginning of the script. Also, the acitivity label description file path, feature label map file path can be provided by setting "activity_labels_path" and "feature_labels_path" accordingly. In the raw data directory path, it is assumed that two folders for training and testing data (X,y and subject data) exist.
 
-The following steps describe the cleaning procedure to obtain required tidy data
+The following steps describe the cleaning procedure to obtain required tidy data.
 
 1) X, y, subject data are column binded for both training and testing data. Both training and testing data are combined (row binded) to obtain complete raw data set
 
