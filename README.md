@@ -8,9 +8,13 @@ This repository contains run_analysis.R script file. The raw data directory path
 The following steps describe the cleaning procedure to obtain required tidy data
 
 1) X, y, subject data are column binded for both training and testing data. Both training and testing data are combined (row binded) to obtain complete raw data set
-2) Also, the activity label map and feature label map are obtained. 
+
+2) Also, the activity label map and feature label map are obtained.
+
 3) Activity label description vector (activities) is obtained using combined raw data and activity label map.
+
 4) Features on the mean and standard deviation for each measurement are extracted from combined raw data.
+
 5) Finally, Tidy data containing Average of each variable for each activity and each subject is obtained.
 
 The tidy data is stored to disk in the same path as raw data directory path named "tidy_data.txt"
