@@ -17,4 +17,4 @@ The following steps describe the cleaning procedure to obtain required tidy data
 
 5) Finally, Tidy data containing Average of each variable for each activity and each subject is obtained.
 
-The tidy data is stored to disk in the same path as raw data directory path named "tidy_data.txt"
+The tidy data is stored to disk named as "tidy_data.txt" in the same path as raw data directory path
